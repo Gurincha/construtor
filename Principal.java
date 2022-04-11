@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthScrollBarUI;
+
 public class Principal{
     public static void main(String[] args) {
         
@@ -9,5 +11,13 @@ public class Principal{
 
         car2.dados();
         car3.dados();
+
+
+    
+    
+    Calculadora calc=new Calculadora(){
+
+        System.out.println(calc.soma(38,1));
+        }  
     }
 }
