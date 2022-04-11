@@ -5,6 +5,9 @@ public class Principal{
 
         Carro car=new Carro();
         Carro car2= new Carro("1.0", "Up", 4, 63000);
-        Carro car3= new Trator("")
+        Carro car3=new Carro("1.0", "john aaa", "total");
+
+        car2.dados();
+        car3.dados();
     }
 }
